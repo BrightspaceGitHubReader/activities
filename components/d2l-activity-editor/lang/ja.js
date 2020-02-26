@@ -5,18 +5,22 @@ export default {
 	"btnCancel": "キャンセル", // cancel button
 	"btnSave": "保存", // save button
 	"dueDate": "期限", // ARIA label for the due date field when creating/editing an activity
-	"endDate": "終了日", // ARIA label for the due date field when creating/editing an activity
-	"startDate": "開始日", // ARIA label for the due date field when creating/editing an activity
+	"endDate": "終了日", // ARIA label for the end date field when creating/editing an activity
+	"startDate": "開始日", // ARIA label for the start date field when creating/editing an activity
 	"dueTime": "期限時刻", // ARIA label for the due time field when creating/editing an activity
-	"endTime": "終了時刻", // ARIA label for the due time field when creating/editing an activity
-	"startTime": "開始時刻", // ARIA label for the due time field when creating/editing an activity
+	"endTime": "終了時刻", // ARIA label for the end time field when creating/editing an activity
+	"startTime": "開始時刻", // ARIA label for the start time field when creating/editing an activity
 	"hidden": "非表示", // Label displayed with the visibility switch when hidden
-	"ariaHidden": "受講生に対して非表示", // Aria Label for the visibility switch when hidden
+	"ariaHidden": "受講者に非表示", // Aria Label for the visibility switch when hidden
 	"noDueDate": "期限がありません", // Placeholder text for due date field when no due date is set
 	"noEndDate": "終了日がありません", // Placeholder text for due date field when no due date is set
 	"noStartDate": "開始日がありません", // Placeholder text for due date field when no due date is set
 	"visible": "表示", // Label displayed with the visibility switch when visible
-	"ariaVisible": "Visible to students", // Aria Label for the visibility switch when visible
+	"ariaVisible": "受講者に表示", // Aria Label for the visibility switch when visible
+	"txtAvailabilityStartAndEnd": "使用可能期間開始日 {startDate}、終了日 {endDate}", // start/end text
+	"txtAvailabilityStartOnly": "使用可能期間開始日 {startDate}", // start only text
+	"txtAvailabilityEndOnly": "使用可能期間終了日 {endDate}", // end only text
+	"txtAvailabilityNeither": "常に使用可能", // always available text
 	"ungraded": "成績評価なし", // State of score field when there is no score and no grade item, when creating/editing an activity
 	"inGrades": "成績にあり", // State of the grades field when there is a score, and an associated grade item
 	"notInGrades": "成績になし", // State of the grades field when there is a score, but no associated grade item
@@ -29,5 +33,11 @@ export default {
 	"loading": "読み込み中...", // Message displayed while page is loading
 	"ok": "OK", // Text of dialog button to commit action
 	"cancel": "キャンセル", // Text of dialog button to cancel action
-	"ariaToolbarShortcutInstructions": "ツールバーを表示するには ALT-F10 キーを、ツールバーを終了するにはツールバーにカーソルを置いた状態で ESC キーを押します。" // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"ariaToolbarShortcutInstructions": "ツールバーを表示するには ALT-F10 キーを、ツールバーを終了するにはツールバーにカーソルを置いた状態で ESC キーを押します。", // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"editGradesLink": "［成績］リンクの編集", // Link text and dialog title for the edit grades dialog,
+	"hdrRubrics": "注釈", //Header for the rubrics section
+	"startBeforeEndDate": "Start Date must be before End Date",
+	"dueBetweenStartEndDate": "Due Date must be after Start Date and before or equal to End Date",
+	"dueAfterStartDate": "Due Date must be after Start Date",
+	"dueBeforeEndDate": "Due Date must be before or equal to End Date",
 };

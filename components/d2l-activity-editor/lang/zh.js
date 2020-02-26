@@ -5,18 +5,22 @@ export default {
 	"btnCancel": "取消", // cancel button
 	"btnSave": "保存", // save button
 	"dueDate": "截止日期", // ARIA label for the due date field when creating/editing an activity
-	"endDate": "结束日期", // ARIA label for the due date field when creating/editing an activity
-	"startDate": "开始日期", // ARIA label for the due date field when creating/editing an activity
+	"endDate": "结束日期", // ARIA label for the end date field when creating/editing an activity
+	"startDate": "开始日期", // ARIA label for the start date field when creating/editing an activity
 	"dueTime": "截止时间", // ARIA label for the due time field when creating/editing an activity
-	"endTime": "结束时间", // ARIA label for the due time field when creating/editing an activity
-	"startTime": "开始时间", // ARIA label for the due time field when creating/editing an activity
+	"endTime": "结束时间", // ARIA label for the end time field when creating/editing an activity
+	"startTime": "开始时间", // ARIA label for the start time field when creating/editing an activity
 	"hidden": "隐藏", // Label displayed with the visibility switch when hidden
 	"ariaHidden": "已向学生隐藏", // Aria Label for the visibility switch when hidden
 	"noDueDate": "无截止日期", // Placeholder text for due date field when no due date is set
 	"noEndDate": "无结束日期", // Placeholder text for due date field when no due date is set
 	"noStartDate": "无开始日期", // Placeholder text for due date field when no due date is set
 	"visible": "可见", // Label displayed with the visibility switch when visible
-	"ariaVisible": "Visible to students", // Aria Label for the visibility switch when visible
+	"ariaVisible": "对学生可见", // Aria Label for the visibility switch when visible
+	"txtAvailabilityStartAndEnd": "可用开始日期 {startDate} 和结束日期 {endDate}", // start/end text
+	"txtAvailabilityStartOnly": "可用开始日期 {startDate}", // start only text
+	"txtAvailabilityEndOnly": "可用结束日期 {endDate}", // end only text
+	"txtAvailabilityNeither": "始终可用", // always available text
 	"ungraded": "无成绩", // State of score field when there is no score and no grade item, when creating/editing an activity
 	"inGrades": "在成绩中", // State of the grades field when there is a score, and an associated grade item
 	"notInGrades": "不在成绩中", // State of the grades field when there is a score, but no associated grade item
@@ -29,5 +33,11 @@ export default {
 	"loading": "正在加载...", // Message displayed while page is loading
 	"ok": "确定", // Text of dialog button to commit action
 	"cancel": "取消", // Text of dialog button to cancel action
-	"ariaToolbarShortcutInstructions": "按 ALT-F10 可调用工具栏；按 ESC 可退出正在使用的工具栏。" // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"ariaToolbarShortcutInstructions": "按 ALT-F10 可调用工具栏；按 ESC 可退出正在使用的工具栏。", // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"editGradesLink": "编辑成绩链接", // Link text and dialog title for the edit grades dialog,
+	"hdrRubrics": "量规", //Header for the rubrics section
+	"startBeforeEndDate": "Start Date must be before End Date",
+	"dueBetweenStartEndDate": "Due Date must be after Start Date and before or equal to End Date",
+	"dueAfterStartDate": "Due Date must be after Start Date",
+	"dueBeforeEndDate": "Due Date must be before or equal to End Date",
 };

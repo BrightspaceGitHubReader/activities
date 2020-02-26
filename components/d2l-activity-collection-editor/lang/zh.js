@@ -14,7 +14,7 @@ export default {
 	loadMore: "加载更多", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
 	noActivitiesInLearningPath: "此学习路径中无任何活动。", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "使用您的搜索术语未找到任何活动。", // Displayed when the learning path has no activities while in the screen that allows you to add them.
-	numberOfActivities: "{count, plural, =1 {1 Activity} other {{count} Activities}}", // The number of learning tasks currently in the list.
+	numberOfActivities: "{count, plural, =1 {1 个活动} other {{count} 个活动}}", // The number of learning tasks currently in the list.
 	removeActivity: "从学习路径中移除活动 {courseName}。", // An action to remove a learning task from a list of tasks that are related
 	search: "搜索", // When adding activities to the learning path, this is where you can search for potential activities to add.
 	selected: "已选 {count}。", // When adding activities (bulk add) to a learning path this is the number of activities that will be added to the list.
