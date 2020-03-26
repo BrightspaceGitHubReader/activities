@@ -17,6 +17,7 @@ export default {
 	numberOfActivities: "{count, plural, =1 {1 件のアクティビティ} other {{count} 件のアクティビティ}}", // The number of learning tasks currently in the list.
 	removeActivity: "学習パスからアクティビティ、{courseName} を削除します。", // An action to remove a learning task from a list of tasks that are related
 	search: "検索", // When adding activities to the learning path, this is where you can search for potential activities to add.
+	searchPlaceholder: "検索...", // Placeholder text for the search input to search the list of potential activities.
 	selected: "{count} 件を選択済み。", // When adding activities (bulk add) to a learning path this is the number of activities that will be added to the list.
 	untitledLearningPath: "無題の学習パス", // Default name of a learning path before the user has changed it.
 };

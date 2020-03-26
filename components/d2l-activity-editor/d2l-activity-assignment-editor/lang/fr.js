@@ -7,15 +7,41 @@ export default {
 	"lblAnonymousMarking": "Attribution anonyme d’état", // Label for anonymous marking
 	"chkAnonymousMarking": "Masquer les noms des étudiants lors des évaluations", // Checkbox for anonymous marking
 	"dueDate": "Date d’échéance", // ARIA label for the due date field when creating/editing an activity
+	"txtAnnotationsOff": "Annotations désactivées", // annotations off text
 	"emptyNameError": "Le nom est obligatoire", // Error message to inform user that the assignment name is a required field
 	"instructions": "Instructions", // Label for the instruction field when creating/editing an assignment
 	"hdrTurnitin": "Intégration Turnitin®", // turnitin heading
 	"hlpTurnitin": "L’intégration Turnitin® vous permet d’utiliser Originality Check® pour évaluer le travail des élèves en termes d’intégrité scolaire et d’utiliser l’outil d’évaluation externe GradeMark® pour l’évaluation.", // turnitin help
 	"btnEditTurnitin": "Maîtriser Intégration Turnitin®", // edit turnitin button
 	"btnCloseDialog": "Fermer ce dialogue", // close dialog button
+	"txtOriginalityCheckOn": "Originality Check On", // originality check on text
+	"txtGradeMarkOn": "GradeMark On", // grade mark on text
+	"txtTurnitinOn1": "Originality Check and GradeMark On", // turnitin on text, variant 1
+	"txtTurnitinOn2": "Originality Check On", // turnitin on text, variant 2
+	"txtTurnitinOn3": "GradeMark On", // turnitin on text, variant 3
+	"btnCancel": "Annuler", // cancel button
+	"btnSave": "Enregistrer", // save button
+	"hdrAvailability": "Dates et conditions de disponibilité", // availability header
 	"name": "Nom", // Label for the name field when creating/editing an activity
 	"submissionType": "Type de soumission", // Label for the submission type field when creating/editing an assignment
 	"annotationTools": "Outils d’annotation", // Label for enabling/disabling Annotation Tools when creating/editing an assignment
 	"annotationToolDescription": "Rendre les outils d’annotation disponibles pour l’évaluation", //Description next to the checkbox for annotation tools when creating/editing an assignment
-	"scoreOutOf": "Note sur" // Label for the score-out-of field when creating/editing an activity
+	"scoreOutOf": "Note sur", // Label for the score-out-of field when creating/editing an activity
+	"anonymousGradingEnabled": "Attribution anonyme d\'état", // Summary message for accordion when anonymous grading is enabled
+	"evaluationAndFeedback": "Évaluation et rétroaction", // Header text for the evaluation and feedback summarizer
+	"txtAssignmentType": "Type de travail", // Label for assignment type
+	"txtIndividual": "Travail individuel", // Label for individual assignment type
+	"txtGroup": "Travail de groupe", // Label for group assignment type,
+	"txtGroupCategoryWithName": "Catégorie de groupe : {groupCategory}", //Label for the group category {groupCategory} is the name of the group category
+	"txtGroupCategory": "Catégorie de groupe", // Label for group category,
+	"txtGroupAssignmentSummary": "Travail de groupe", // Summary message for accordion when assignment type is set to group
+	"submissionCompletionAndCategorization": "Soumission, achèvement et catégorisation", // Label for the availability and dates summarizer
+	"assignmentSaveError": "Votre travail n\'était pas enregistré. Veuillez corriger les champs indiqués en rouge.", // Error message to inform the user that there was a problem saving the assignment, instructing them to correct invalid fields
+	"folderTypeCannotChange": "Le type de travail ne peut pas être changé lorsque des soumissions existent.", // Folder type cannot change
+	"folderTypeNoGroups": "Aucun groupe n\'existe. Créez des groupes dans l\'outil Groupes.", // Folder type no groups
+	"folderTypeCreateGroups": "Créez des groupes dans l\'outil Groupes.", // Folder type create groups
+	"discardChangesTitle": "Abandonner les modifications?", // Discard Changes User Prompt
+	"discardChangesQuestion": "Êtes-vous certain de vouloir abandonner vos modifications?", // Discard Changes User Prompt
+	"yesLabel": "Oui",
+	"noLabel": "Non"
 };

@@ -17,6 +17,7 @@ export default {
 	numberOfActivities: "{count, plural, =1 {1 activité} other {{count} activités}}", // The number of learning tasks currently in the list.
 	removeActivity: "Supprimer l’activité {courseName} du chemin d\'apprentissage.", // An action to remove a learning task from a list of tasks that are related
 	search: "Rechercher", // When adding activities to the learning path, this is where you can search for potential activities to add.
+	searchPlaceholder: "Search...", // Placeholder text for the search input to search the list of potential activities.
 	selected: "{count} sélectionné(s).", // When adding activities (bulk add) to a learning path this is the number of activities that will be added to the list.
 	untitledLearningPath: "Chemin d’apprentissage sans titre", // Default name of a learning path before the user has changed it.
 };

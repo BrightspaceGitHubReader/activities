@@ -2,14 +2,20 @@
 
 export default {
 	"btnEditReleaseConditions": "Editar Condições de Liberação", // edit release conditions button
+	"btnAddReleaseCondition": "Adicionar Condição de Liberação", // add release condition button
+	"btnCreateNew": "Criar", // create new button
+	"btnAddExisting": "Adicionar Existente", // add existing button
+	"btnRemoveCondition": "Remover Condição", // remove condition button
+	"lblConditionsOperator": "Para visualizar o item, os usuários precisam atender a", // conditions operator label
+	"txtNumReleaseConditions": "{count, plural, =1 {{count} Release Condition} other {{count} Release Conditions}}", // num release condition text
 	"btnCancel": "Cancelar", // cancel button
-	"btnSave": "Salvar", // save button
+	"btnSave": "Salvar", // save and close button
 	"dueDate": "Prazo", // ARIA label for the due date field when creating/editing an activity
-	"endDate": "Data Final", // ARIA label for the due date field when creating/editing an activity
-	"startDate": "Data de Início", // ARIA label for the due date field when creating/editing an activity
+	"endDate": "Data Final", // ARIA label for the end date field when creating/editing an activity
+	"startDate": "Data de Início", // ARIA label for the start date field when creating/editing an activity
 	"dueTime": "Hora Limite", // ARIA label for the due time field when creating/editing an activity
-	"endTime": "Hora Final", // ARIA label for the due time field when creating/editing an activity
-	"startTime": "Hora de Início", // ARIA label for the due time field when creating/editing an activity
+	"endTime": "Hora Final", // ARIA label for the end time field when creating/editing an activity
+	"startTime": "Hora de Início", // ARIA label for the start time field when creating/editing an activity
 	"hidden": "Oculto", // Label displayed with the visibility switch when hidden
 	"ariaHidden": "Oculto dos alunos", // Aria Label for the visibility switch when hidden
 	"noDueDate": "Sem prazo", // Placeholder text for due date field when no due date is set
@@ -17,6 +23,10 @@ export default {
 	"noStartDate": "Sem data de início", // Placeholder text for due date field when no due date is set
 	"visible": "Visível", // Label displayed with the visibility switch when visible
 	"ariaVisible": "Visible to students", // Aria Label for the visibility switch when visible
+	"txtAvailabilityStartAndEnd": "A disponibilidade começa em {startDate} e termina em {endDate}", // start/end text
+	"txtAvailabilityStartOnly": "Início da disponibilidade: {startDate}", // start only text
+	"txtAvailabilityEndOnly": "Término da disponibilidade: {endDate}", // end only text
+	"txtAvailabilityNeither": "Sempre disponível", // always available text
 	"ungraded": "Sem Nota", // State of score field when there is no score and no grade item, when creating/editing an activity
 	"inGrades": "Presente em Notas", // State of the grades field when there is a score, and an associated grade item
 	"notInGrades": "Ausente em Notas", // State of the grades field when there is a score, but no associated grade item
@@ -29,5 +39,16 @@ export default {
 	"loading": "Carregando...", // Message displayed while page is loading
 	"ok": "Ok", // Text of dialog button to commit action
 	"cancel": "Cancelar", // Text of dialog button to cancel action
-	"ariaToolbarShortcutInstructions": "Pressione ALT-F10 para entrar na barra de ferramentas e, para sair, pressione ESC." // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"ariaToolbarShortcutInstructions": "Pressione ALT-F10 para entrar na barra de ferramentas e, para sair, pressione ESC.", // Instructions for screenreader users on how to enter and exit the html editor toolbar
+	"chooseFromGrades": "Escolher em Notas", // Link text and dialog title for the edit grades dialog,
+	"hdrRubrics": "Rubricas", //Header for the rubrics section
+	"startBeforeEndDate": "A data de início precisa ser anterior à data final",
+	"dueBetweenStartEndDate": "O prazo precisa ser posterior à data de início e anterior ou igual à data final",
+	"dueAfterStartDate": "O prazo precisa ser posterior à data de início",
+	"dueBeforeEndDate": "O prazo precisa ser anterior ou igual à data final",
+	"createAndLinkToNewGradeItem": "Criar e Vincular Item de Nota", //Radio button text
+	"linkToExistingGradeItem": "Link para Item de Nota Existente", //Radio button text
+	"points": "Pontos: {points}", // Text label for displaying points of a grade
+	"noGradeItems": "No existing Grade Items exist to be linked", // Reason why existing grade items cannot be linked in the choose grades dialog
+	"noGradeCreatePermission": "You do not have permission to create a new grade item" // Reason why a new grade items cannot be created in the choose grades dialog
 };
