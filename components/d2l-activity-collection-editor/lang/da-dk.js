@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "Rediger undervisningssti", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "Skriv en beskrivelse", // Shows where the user should write a description for the learning path.
 	loadMore: "Indlæs flere", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "Der er ingen aktiviteter i denne undervisningssti.", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "Der blev ikke fundet nogen aktiviteter for dit søgeord.", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {1 aktivitet} other {{count} aktiviteter}}", // The number of learning tasks currently in the list.

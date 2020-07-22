@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "学習パスの編集", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "説明の記入", // Shows where the user should write a description for the learning path.
 	loadMore: "さらに読み込む", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "この学習パスにはアクティビティがありません。", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "検索語句に一致するアクティビティがありませんでした。", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {1 件のアクティビティ} other {{count} 件のアクティビティ}}", // The number of learning tasks currently in the list.

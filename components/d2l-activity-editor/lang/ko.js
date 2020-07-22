@@ -8,6 +8,7 @@ export default {
 	"editor.btnRemoveCondition": "조건 제거", // remove condition button
 	"editor.lblConditionsOperator": "이 항목을 보려면 사용자가 다음을 충족해야 합니다.", // conditions operator label
 	"editor.txtNumReleaseConditions": "{count, plural, =1 {{count}개 릴리스 조건} other {{count}개 릴리스 조건}}", // num release condition text
+	"editor.txtNumSpecialAccess": "{userCount, plural, =1 {1 user with special access} other {{userCount} users with special access}}", // num users with special access text
 	"editor.btnCancel": "취소", // cancel button
 	"editor.btnSave": "저장 및 닫기", // save and close button
 	"editor.btnSaveMobile": "저장", // save and close button for mobile devices
@@ -58,6 +59,12 @@ export default {
 	"editor.unevaluatedCompetencies": "{count, plural, =1 {1개 평가 누락} other {{count}개 평가 누락}}", //Label for number of unevalated associated competencies
 	"editor.btnClose": "닫기", //Label for Close button
 	"editor.btnCloseDialog": "이 대화 상자 닫기", // close dialog button
+	"editor.btnManageSpecialAccess": "Manage Special Access", // manage special access button
+	"editor.specialAccessRestrictedText": "Only users with special access can see this folder", // restricted special access description
+	"editor.specialAccessNotRestrictedText": "Users can submit outside normal availability dates", // not restricted special access description
+	"editor.specialAccessCount": "{count, plural, =0 {No users} =1 {1 user} other {{count} users}} with special access", // Label for number of special access users
+	"editor.specialAccessDialogTitle": "Manage Special Access", // Dialog title
+	"editor.specialAccessHidden": "Hidden by special access", // Warning label that the activity is restricted but is being hidden from all users by special access rules
 
 	"rubrics.btnAddRubric": "루브릭 추가", //text for add rubric button
 	"rubrics.btnCreateNew": "새로 만들기", //Text for create new dropdown
@@ -71,7 +78,9 @@ export default {
 	"rubrics.txtDeleteRubric": "루브릭 삭제", // Text for deleting rubric icon
 	"rubrics.btnClose": "닫기", // X button for exiting the create new rubric overlay
 	"rubrics.txtRubricAdded": "Rubric added", // Text for notifying screenreader rubric was added
-	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed 
+	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed
+	"rubrics.defaultScoringRubric": "Default Scoring Rubric", // Sub heading for the default scoring rubric select dropdown
+	"rubrics.noDefaultScoringRubricSelected": "No default selected", // option in default scoring rubric when no default scoring rubric selected
 
 	"grades.points": "점수: {points}", // Text label for displaying points of a grade
 	"grades.weight": "가중치: {weight}", // Text label for displaying weight of a grade

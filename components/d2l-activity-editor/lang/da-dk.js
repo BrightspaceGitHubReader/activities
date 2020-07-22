@@ -8,6 +8,7 @@ export default {
 	"editor.btnRemoveCondition": "Fjern betingelse", // remove condition button
 	"editor.lblConditionsOperator": "For at få vist dette element skal brugerne opfylde", // conditions operator label
 	"editor.txtNumReleaseConditions": "{count, plural, =1 {{count} betingelse for offentliggørelse} other {{count} betingelser for offentliggørelse}}", // num release condition text
+	"editor.txtNumSpecialAccess": "{userCount, plural, =1 {1 user with special access} other {{userCount} users with special access}}", // num users with special access text
 	"editor.btnCancel": "Annuller", // cancel button
 	"editor.btnSave": "Gem og luk", // save and close button
 	"editor.btnSaveMobile": "Gem", // save and close button for mobile devices
@@ -58,6 +59,12 @@ export default {
 	"editor.unevaluatedCompetencies": "{count, plural, =1 {1 not being evaluated} other {{count} not being evaluated}}", //Label for number of unevalated associated competencies
 	"editor.btnClose": "Luk", //Label for Close button
 	"editor.btnCloseDialog": "Luk denne dialogboks", // close dialog button
+	"editor.btnManageSpecialAccess": "Manage Special Access", // manage special access button
+	"editor.specialAccessRestrictedText": "Only users with special access can see this folder", // restricted special access description
+	"editor.specialAccessNotRestrictedText": "Users can submit outside normal availability dates", // not restricted special access description
+	"editor.specialAccessCount": "{count, plural, =0 {No users} =1 {1 user} other {{count} users}} with special access", // Label for number of special access users
+	"editor.specialAccessDialogTitle": "Manage Special Access", // Dialog title
+	"editor.specialAccessHidden": "Hidden by special access", // Warning label that the activity is restricted but is being hidden from all users by special access rules
 
 	"rubrics.btnAddRubric": "Tilføj rubrik", //text for add rubric button
 	"rubrics.btnCreateNew": "Opret ny", //Text for create new dropdown
@@ -71,7 +78,9 @@ export default {
 	"rubrics.txtDeleteRubric": "Slet rubrik", // Text for deleting rubric icon
 	"rubrics.btnClose": "Close", // X button for exiting the create new rubric overlay
 	"rubrics.txtRubricAdded": "Rubric added", // Text for notifying screenreader rubric was added
-	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed 
+	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed
+	"rubrics.defaultScoringRubric": "Default Scoring Rubric", // Sub heading for the default scoring rubric select dropdown
+	"rubrics.noDefaultScoringRubricSelected": "No default selected", // option in default scoring rubric when no default scoring rubric selected
 
 	"grades.points": "Point: {points}", // Text label for displaying points of a grade
 	"grades.weight": "Vægt: {weight}", // Text label for displaying weight of a grade
@@ -94,51 +103,5 @@ export default {
 	"attachments.addFileMenu": "Upload af fil", // Attach menu item text
 	"attachments.addLinkMenu": "Weblink", // Attach menu item text
 	"attachments.addOneDriveLinkMenu": "OneDrive", // Attach menu item text
-	"attachments.addQuicklinkMenu": "Eksisterende aktivitet", // Attach menu item text
-
-	"assignment-editor.hdrReleaseConditions": "Release Conditions", // release conditions heading
-	"assignment-editor.hlpReleaseConditions": "Users are not able to access or view the assignment unless they meet the release conditions.", // release conditions help
-	"assignment-editor.completionType": "Marked as completed", // Label for the completion type field when creating/editing an assignment
-	"assignment-editor.lblAnonymousMarking": "Anonymous Marking", // Label for anonymous marking
-	"assignment-editor.chkAnonymousMarking": "Hide student names during assessment", // Checkbox for anonymous marking
-	"assignment-editor.dueDate": "Forfaldsdato", // ARIA label for the due date field when creating/editing an activity
-	"assignment-editor.txtAnnotationsOff": "Kommentarer slået fra", // annotations off text
-	"assignment-editor.emptyNameError": "Navn påkrævet", // Error message to inform user that the assignment name is a required field
-	"assignment-editor.instructions": "Instruktioner", // Label for the instruction field when creating/editing an assignment
-	"assignment-editor.hdrTurnitin": "Turnitin-integration", // turnitin heading
-	"assignment-editor.hlpTurnitin": "Turnitin® føjer ekstra funktionalitet til evaluering.", // turnitin help
-	"assignment-editor.btnEditTurnitin": "Administrer Turnitin", // edit turnitin button
-	"assignment-editor.btnCloseDialog": "Luk denne dialogboks", // close dialog button
-	"assignment-editor.txtOriginalityCheckOn": "Originality Check aktiveret", // originality check on text
-	"assignment-editor.txtGradeMarkOn": "GradeMark aktiveret", // grade mark on text
-	"assignment-editor.txtTurnitinOn": "Turnitin aktiveret", // turnitin on text
-	"assignment-editor.btnCancel": "Annuller", // cancel button
-	"assignment-editor.btnSave": "Gem", // save button
-	"assignment-editor.hdrAvailability": "Tilgængelighedsdatoer og betingelser", // availability header
-	"assignment-editor.name": "Navn", // Label for the name field when creating/editing an activity
-	"assignment-editor.submissionType": "Submission Type", // Label for the submission type field when creating/editing an assignment
-	"assignment-editor.annotationTools": "Annotation Tools", // Label for enabling/disabling Annotation Tools when creating/editing an assignment
-	"assignment-editor.annotationToolDescription": "Make annotation tools available for assessment", //Description next to the checkbox for annotation tools when creating/editing an assignment
-	"assignment-editor.scoreOutOf": "Score Out Of", // Label for the score-out-of field when creating/editing an activity
-	"assignment-editor.anonymousGradingEnabled": "Anonym markering", // Summary message for accordion when anonymous grading is enabled
-	"assignment-editor.evaluationAndFeedback": "Evaluering og feedback", // Header text for the evaluation and feedback summarizer
-	"assignment-editor.txtAssignmentType": "Opgavetype", // Label for assignment type
-	"assignment-editor.txtIndividual": "Individuel opgave", // Label for individual assignment type
-	"assignment-editor.txtGroup": "Gruppeopgave", // Label for group assignment type,
-	"assignment-editor.txtGroupCategoryWithName": "Gruppekategori: {groupCategory}", //Label for the group category {groupCategory} is the name of the group category
-	"assignment-editor.txtGroupCategory": "Gruppekategori", // Label for group category,
-	"assignment-editor.txtGroupAssignmentSummary": "Gruppeopgave", // Summary message for accordion when assignment type is set to group
-	"assignment-editor.submissionCompletionAndCategorization": "Aflevering og færdiggørelse", // Label for the availability and dates summarizer
-	"assignment-editor.assignmentSaveError": "Din opgave blev ikke gemt. Ret de felter, der er markeret med rødt.", // Error message to inform the user that there was a problem saving the assignment, instructing them to correct invalid fields
-	"assignment-editor.folderTypeCannotChange": "Opgavetype kan ikke ændres, når opgaverne er afleveret", // Folder type cannot change
-	"assignment-editor.folderTypeNoGroups": "Der eksisterer ingen grupper. Opret nye grupper i værktøjet Grupper.", // Folder type no groups
-	"assignment-editor.folderTypeCreateGroups": "Opret nye grupper i værktøjet Grupper.", // Folder type create groups
-	"assignment-editor.discardChangesTitle": "Slet ændringer?", // Discard Changes User Prompt
-	"assignment-editor.discardChangesQuestion": "Er du sikker på, at du vil slette dine ændringer?", // Discard Changes User Prompt
-	"assignment-editor.yesLabel": "Ja",
-	"assignment-editor.noLabel": "Nej",
-	"assignment-editor.filesSubmissionLimit": "Filer tilladt pr. aflevering",
-	"assignment-editor.UnlimitedFilesPerSubmission": "Ubegrænset",
-	"assignment-editor.OneFilePerSubmission": "En fil",
-	"assignment-editor.submissionsRule": "Afleveringer"
+	"attachments.addQuicklinkMenu": "Eksisterende aktivitet" // Attach menu item text
 };

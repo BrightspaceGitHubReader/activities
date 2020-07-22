@@ -8,6 +8,7 @@ export default {
 	"editor.btnRemoveCondition": "移除條件", // remove condition button
 	"editor.lblConditionsOperator": "如果要檢視此項目，使用者必須符合", // conditions operator label
 	"editor.txtNumReleaseConditions": "{count, plural, =1 {{count} 個發佈條件} other {{count} 個發佈條件}}", // num release condition text
+	"editor.txtNumSpecialAccess": "{userCount, plural, =1 {1 user with special access} other {{userCount} users with special access}}", // num users with special access text
 	"editor.btnCancel": "取消", // cancel button
 	"editor.btnSave": "儲存並關閉", // save and close button
 	"editor.btnSaveMobile": "儲存", // save and close button for mobile devices
@@ -58,6 +59,12 @@ export default {
 	"editor.unevaluatedCompetencies": "{count, plural, =1 {缺少 1 項評量} other {缺少 {count} 項評量}}", //Label for number of unevalated associated competencies
 	"editor.btnClose": "關閉", //Label for Close button
 	"editor.btnCloseDialog": "關閉此對話方塊", // close dialog button
+	"editor.btnManageSpecialAccess": "Manage Special Access", // manage special access button
+	"editor.specialAccessRestrictedText": "Only users with special access can see this folder", // restricted special access description
+	"editor.specialAccessNotRestrictedText": "Users can submit outside normal availability dates", // not restricted special access description
+	"editor.specialAccessCount": "{count, plural, =0 {No users} =1 {1 user} other {{count} users}} with special access", // Label for number of special access users
+	"editor.specialAccessDialogTitle": "Manage Special Access", // Dialog title
+	"editor.specialAccessHidden": "Hidden by special access", // Warning label that the activity is restricted but is being hidden from all users by special access rules
 
 	"rubrics.btnAddRubric": "新增量規", //text for add rubric button
 	"rubrics.btnCreateNew": "建立新的", //Text for create new dropdown
@@ -71,7 +78,9 @@ export default {
 	"rubrics.txtDeleteRubric": "刪除量規", // Text for deleting rubric icon
 	"rubrics.btnClose": "關閉", // X button for exiting the create new rubric overlay
 	"rubrics.txtRubricAdded": "Rubric added", // Text for notifying screenreader rubric was added
-	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed 
+	"rubrics.txtRubricRemoved": "Rubric removed", // Text for notifying screenreader rubric was removed
+	"rubrics.defaultScoringRubric": "Default Scoring Rubric", // Sub heading for the default scoring rubric select dropdown
+	"rubrics.noDefaultScoringRubricSelected": "No default selected", // option in default scoring rubric when no default scoring rubric selected
 
 	"grades.points": "分數：{points}", // Text label for displaying points of a grade
 	"grades.weight": "加權：{weight}", // Text label for displaying weight of a grade

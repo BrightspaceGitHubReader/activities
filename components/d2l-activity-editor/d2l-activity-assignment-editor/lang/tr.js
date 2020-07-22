@@ -45,5 +45,7 @@ export default {
 	"filesSubmissionLimit": "Gönderim Başına İzin Verilen Dosya Sayısı",
 	"UnlimitedFilesPerSubmission": "Sınırsız",
 	"OneFilePerSubmission": "Tek Dosya",
-	"submissionsRule": "Gönderim"
+	"submissionsRule": "Gönderim",
+	"hdrSpecialAccess": "Special Access", // special access heading
+	"hlpSpecialAccess": "Special Access allows assignments to be available to only a select group of users or individualized due dates for certain users.", // special access help
 };

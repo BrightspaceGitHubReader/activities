@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "Modifier le chemin d\'apprentissage", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "Écrire une description", // Shows where the user should write a description for the learning path.
 	loadMore: "En voir plus", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "Aucune activité ne figure dans ce chemin d\'apprentissage.", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "Aucune activité n\'a été trouvée au moyen de vos termes à rechercher.", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {1 activité} other {{count} activités}}", // The number of learning tasks currently in the list.

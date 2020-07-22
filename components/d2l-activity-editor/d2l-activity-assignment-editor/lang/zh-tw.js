@@ -45,5 +45,7 @@ export default {
 	"filesSubmissionLimit": "每個交件匣提交允許的檔案數",
 	"UnlimitedFilesPerSubmission": "無限制",
 	"OneFilePerSubmission": "一個檔案",
-	"submissionsRule": "交件匣提交"
+	"submissionsRule": "交件匣提交",
+	"hdrSpecialAccess": "Special Access", // special access heading
+	"hlpSpecialAccess": "Special Access allows assignments to be available to only a select group of users or individualized due dates for certain users.", // special access help
 };

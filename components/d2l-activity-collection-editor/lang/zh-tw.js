@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "編輯學習路徑", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "撰寫說明", // Shows where the user should write a description for the learning path.
 	loadMore: "載入更多", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "此學習路徑中沒有任何活動。", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "使用您的搜尋詞彙找不到任何活動。", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {1 個活動} other {{count} 個活動}}", // The number of learning tasks currently in the list.

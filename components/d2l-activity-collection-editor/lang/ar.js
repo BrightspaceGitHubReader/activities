@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "تحرير مسار التعلّم", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "كتابة وصف", // Shows where the user should write a description for the learning path.
 	loadMore: "تحميل المزيد", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "لا تتوفر أي نشاطات في مسار التعلّم هذا.", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "لم يتم العثور على أي أنشطة باستخدام مصطلح البحث.", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {نشاط واحد} other {{count} من الأنشطة}}", // The number of learning tasks currently in the list.

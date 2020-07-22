@@ -12,6 +12,7 @@ export default {
 	editLearningPath: "Leertraject bewerken", // Title of the page where the page is to edit a list of related learnings. On the page you can edit the title, description and what learning activities are in the list.
 	enterADescription: "Een beschrijving schrijven", // Shows where the user should write a description for the learning path.
 	loadMore: "Meer laden", // When adding activities to the learning path, this is on a button that will load more potential activities that can be added that match the current search.
+	moveActivity: "Moved {activityName} to position {newPosition} out of {totalNumberOfActivities}.", // When a activity is moved to a new position in the learning path this message is annouced.
 	noActivitiesInLearningPath: "Dit leertraject bevat geen activiteiten.", // Displayed when the learning path is loaded and contains no activities
 	noActivitiesFound: "Er zijn geen activiteiten gevonden op basis van uw zoekterm.", // Displayed when the learning path has no activities while in the screen that allows you to add them.
 	numberOfActivities: "{count, plural, =1 {1 activiteit} other {{count} activiteiten}}", // The number of learning tasks currently in the list.

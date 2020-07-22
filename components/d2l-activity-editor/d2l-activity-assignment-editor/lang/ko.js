@@ -45,5 +45,7 @@ export default {
 	"filesSubmissionLimit": "제출당 허용되는 파일 수",
 	"UnlimitedFilesPerSubmission": "제한 없음",
 	"OneFilePerSubmission": "파일 1개",
-	"submissionsRule": "개 제출 항목"
+	"submissionsRule": "개 제출 항목",
+	"hdrSpecialAccess": "Special Access", // special access heading
+	"hlpSpecialAccess": "Special Access allows assignments to be available to only a select group of users or individualized due dates for certain users.", // special access help
 };
